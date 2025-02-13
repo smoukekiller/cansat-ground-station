@@ -3,5 +3,6 @@
 
 void WriteToServos();
 void CalculateDeltas();
+void slow_rotation();
 
 #endif

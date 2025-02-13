@@ -4,6 +4,7 @@
 #include <Arduino.h>
 
 //some configs
+#define ROTATION_TIME 50 //time in milleseconds that it takes to turn 1 degree
 #define PANIC_MODE_TIME 2000    //time in milliseconds that takes the station to go into panic mode after not receiving data
 #define PANIC_MODE_SPEED 30     //time in milliseconds that takes to turn 1 degree 
 #define PANIC_MODE_DEGREE 45    //vertical angle that the ground station will hold during the panic mode 
